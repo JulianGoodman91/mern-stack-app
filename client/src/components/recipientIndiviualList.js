@@ -1,7 +1,7 @@
 import React from 'react'
 import Table from 'react-bootstrap/Table';
-import Form from 'react-bootstrap/Form';
 import '../App.css';
+
 
 
 function RecipientList() {
@@ -30,7 +30,7 @@ function RecipientList() {
 
                 <tbody>
                     <tr>
-                        <td></td>
+                        <td><input type="checkbox" id="scales" name="scales" checked /></td>
                         <td>Mr</td>
                         <td>John</td>
                         <td>Smith</td>
@@ -51,7 +51,7 @@ function RecipientList() {
                         <td></td>
                     </tr>
                     <tr>
-                        <td></td>
+                        <td><input type="checkbox" id="scales" name="scales" checked /></td>
                         <td>Mr</td>
                         <td>John</td>
                         <td>Smith</td>
@@ -72,7 +72,7 @@ function RecipientList() {
                         <td></td>
                     </tr>
                     <tr>
-                        <td></td>
+                        <td><input type="checkbox" id="scales" name="scales" checked /></td>
                         <td>Mr</td>
                         <td>John</td>
                         <td>Smith</td>
@@ -93,7 +93,7 @@ function RecipientList() {
                         <td></td>
                     </tr>
                     <tr>
-                        <td></td>
+                        <td><input type="checkbox" id="scales" name="scales" checked /></td>
                         <td>Mr</td>
                         <td>John</td>
                         <td>Smith</td>
@@ -114,7 +114,7 @@ function RecipientList() {
                         <td></td>
                     </tr>
                     <tr>
-                        <td></td>
+                        <td><input type="checkbox" id="scales" name="scales" checked /></td>
                         <td>Miss</td>
                         <td>Joanna</td>
                         <td>Smith</td>
@@ -135,7 +135,7 @@ function RecipientList() {
                         <td></td>
                     </tr>
                     <tr>
-                        <td></td>
+                        <td><input type="checkbox" id="scales" name="scales" checked /></td>
                         <td>Mr</td>
                         <td>John</td>
                         <td>Smith</td>
@@ -156,7 +156,7 @@ function RecipientList() {
                         <td></td>
                     </tr>
                     <tr>
-                        <td></td>
+                        <td><input type="checkbox" id="scales" name="scales" checked /></td>
                         <td>Mrs</td>
                         <td>Joanna</td>
                         <td>Smith</td>
@@ -177,7 +177,7 @@ function RecipientList() {
                         <td></td>
                     </tr>
                     <tr>
-                        <td></td>
+                        <td><input type="checkbox" id="scales" name="scales" checked /></td>
                         <td>Mr</td>
                         <td>John</td>
                         <td>Smith</td>
@@ -198,7 +198,7 @@ function RecipientList() {
                         <td></td>
                     </tr>
                     <tr>
-                        <td></td>
+                        <td><input type="checkbox" id="scales" name="scales" checked /></td>
                         <td>Mrs</td>
                         <td>Joanna</td>
                         <td>Smith</td>
@@ -219,7 +219,7 @@ function RecipientList() {
                         <td></td>
                     </tr>
                     <tr>
-                        <td></td>
+                        <td><input type="checkbox" id="scales" name="scales" checked /></td>
                         <td>Mr</td>
                         <td>John</td>
                         <td>Smith</td>
@@ -240,7 +240,7 @@ function RecipientList() {
                         <td></td>
                     </tr>
                     <tr>
-                        <td></td>
+                        <td><input type="checkbox" id="scales" name="scales" checked /></td>
                         <td>Mr</td>
                         <td>John</td>
                         <td>Smith</td>
@@ -261,7 +261,7 @@ function RecipientList() {
                         <td></td>
                     </tr>
                     <tr>
-                        <td></td>
+                        <td><input type="checkbox" id="scales" name="scales" checked /></td>
                         <td>Mr</td>
                         <td>John</td>
                         <td>Smith</td>
@@ -282,7 +282,7 @@ function RecipientList() {
                         <td></td>
                     </tr>
                     <tr>
-                        <td></td>
+                        <td><input type="checkbox" id="scales" name="scales" checked /></td>
                         <td>Miss</td>
                         <td>Joanna</td>
                         <td>Smith</td>
@@ -303,7 +303,7 @@ function RecipientList() {
                         <td></td>
                     </tr>
                     <tr>
-                        <td></td>
+                        <td><input type="checkbox" id="scales" name="scales" checked /></td>
                         <td>Mr</td>
                         <td>John</td>
                         <td>Smith</td>
