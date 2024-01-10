@@ -2,11 +2,11 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import ImageHS from "./images/HubSpot.png";
+import ImageHS from "./images/Stannp.com Logo - Dark.png";
 
 function Navigation() {
     return (
-        <Navbar collapseOnSelect expand="lg" className="bg-body-secondary font-link">
+        <Navbar sticky="top" collapseOnSelect expand="lg" className="bg-body-secondary font-link">
       <Container fluid>
         <Navbar.Brand href="/landingPage"><img src={ImageHS} alt="Logo" style={{width: "100px", height: "auto"}}/></Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />

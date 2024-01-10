@@ -11,6 +11,7 @@ function RecipientGroups() {
             <Table striped bordered hover variant="light">
                 <thead>
                     <tr>
+                        <th>Check Box</th>
                         <th>#ID</th>
                         <th>Group Name</th>
                         <th>Status</th>
@@ -22,11 +23,13 @@ function RecipientGroups() {
                         <th>Countries</th>
                         <th>Heath Check</th>
                         <th className='actions'>Actions</th>
+                        <th>Delete Recipient Group?</th>
                     </tr>
                 </thead>
 
                 <tbody>
                     <tr>
+                        <td></td>
                         <td>12345</td>
                         <td>GROUP_1</td>
                         <td> - </td>
@@ -42,8 +45,10 @@ function RecipientGroups() {
                                 View Recipients
                             </button>
                         </td>
+                        <td></td>
                     </tr>
                     <tr>
+                        <td></td>
                         <td>12345</td>
                         <td>GROUP_2</td>
                         <td> - </td>
@@ -59,8 +64,10 @@ function RecipientGroups() {
                                 View Recipients
                             </button>
                         </td>
+                        <td></td>
                     </tr>
                     <tr>
+                        <td></td>
                         <td>12345</td>
                         <td>GROUP_3</td>
                         <td> - </td>
@@ -76,8 +83,10 @@ function RecipientGroups() {
                                 View Recipients
                             </button>
                         </td>
+                        <td></td>
                     </tr>
                     <tr>
+                        <td></td>
                         <td>12345</td>
                         <td>GROUP_4</td>
                         <td> - </td>
@@ -93,8 +102,10 @@ function RecipientGroups() {
                                 View Recipients
                             </button>
                         </td>
+                        <td></td>
                     </tr>
                     <tr>
+                        <td></td>
                         <td>12345</td>
                         <td>GROUP_5</td>
                         <td> - </td>
@@ -110,8 +121,10 @@ function RecipientGroups() {
                                 View Recipients
                             </button>
                         </td>
+                        <td></td>
                     </tr>
                     <tr>
+                        <td></td>
                         <td>12345</td>
                         <td>GROUP_6</td>
                         <td> - </td>
@@ -127,8 +140,10 @@ function RecipientGroups() {
                                 View Recipients
                             </button>
                         </td>
+                        <td></td>
                     </tr>
                     <tr>
+                        <td></td>
                         <td>12345</td>
                         <td>GROUP_7</td>
                         <td> - </td>
@@ -144,8 +159,10 @@ function RecipientGroups() {
                                 View Recipients
                             </button>
                         </td>
+                        <td></td>
                     </tr>
                     <tr>
+                        <td></td>
                         <td>12345</td>
                         <td>GROUP_8</td>
                         <td> - </td>
@@ -161,8 +178,10 @@ function RecipientGroups() {
                                 View Recipients
                             </button>
                         </td>
+                        <td></td>
                     </tr>
                     <tr>
+                        <td></td>
                         <td>12345</td>
                         <td>GROUP_9</td>
                         <td> - </td>
@@ -178,8 +197,10 @@ function RecipientGroups() {
                                 View Recipients
                             </button>
                         </td>
+                        <td></td>
                     </tr>
                     <tr>
+                        <td></td>
                         <td>12345</td>
                         <td>GROUP_10</td>
                         <td> - </td>
@@ -195,8 +216,10 @@ function RecipientGroups() {
                                 View Recipients
                             </button>
                         </td>
+                        <td></td>
                     </tr>
                     <tr>
+                        <td></td>
                         <td>12345</td>
                         <td>GROUP_11</td>
                         <td> - </td>
@@ -212,8 +235,10 @@ function RecipientGroups() {
                                 View Recipients
                             </button>
                         </td>
+                        <td></td>
                     </tr>
                     <tr>
+                        <td></td>
                         <td>12345</td>
                         <td>GROUP_12</td>
                         <td> - </td>
@@ -229,8 +254,10 @@ function RecipientGroups() {
                                 View Recipients
                             </button>
                         </td>
+                        <td></td>
                     </tr>
                     <tr>
+                        <td></td>
                         <td>12345</td>
                         <td>GROUP_13</td>
                         <td> - </td>
@@ -246,8 +273,10 @@ function RecipientGroups() {
                                 View Recipients
                             </button>
                         </td>
+                        <td></td>
                     </tr>
                     <tr>
+                        <td></td>
                         <td>12345</td>
                         <td>GROUP_14</td>
                         <td> - </td>
@@ -263,6 +292,8 @@ function RecipientGroups() {
                                 View Recipients
                             </button>
                         </td>
+                        <td></td>
+
                     </tr>
                 </tbody>
             </Table>

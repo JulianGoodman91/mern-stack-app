@@ -1,5 +1,6 @@
 import React from 'react'
 import Table from 'react-bootstrap/Table';
+import Form from 'react-bootstrap/Form';
 import '../App.css';
 
 
@@ -9,13 +10,13 @@ function RecipientList() {
             <Table striped bordered hover variant="light">
                 <thead>
                     <tr>
+                        <th>CheckBox</th>
                         <th>Title</th>
                         <th>First Name*</th>
                         <th>Last Name / Full Name*</th>
                         <th>Company*</th>
                         <th>Address 1*</th>
                         <th>Address 2*</th>
-                        <th>Address 3</th>
                         <th>City / Town</th>
                         <th>Countries</th>
                         <th>County / State</th>
@@ -23,17 +24,18 @@ function RecipientList() {
                         <th>Country</th>
                         <th>Deliverability</th>
                         <th className='actions'>Actions</th>
+                        <th>Delete Recipient?</th>
                     </tr>
                 </thead>
 
                 <tbody>
                     <tr>
+                        <td></td>
                         <td>Mr</td>
                         <td>John</td>
                         <td>Smith</td>
                         <td>Stannp</td>
                         <td>25, Fake Street</td>
-                        <td>-</td>
                         <td>-</td>
                         <td>Barnstaple</td>
                         <td>1</td>
@@ -46,14 +48,15 @@ function RecipientList() {
                                 Insights
                             </button>
                         </td>
+                        <td></td>
                     </tr>
                     <tr>
+                        <td></td>
                         <td>Mr</td>
                         <td>John</td>
                         <td>Smith</td>
                         <td>Stannp</td>
                         <td>25, Fake Street</td>
-                        <td>-</td>
                         <td>-</td>
                         <td>Barnstaple</td>
                         <td>1</td>
@@ -66,14 +69,15 @@ function RecipientList() {
                                 Insights
                             </button>
                         </td>
+                        <td></td>
                     </tr>
                     <tr>
+                        <td></td>
                         <td>Mr</td>
                         <td>John</td>
                         <td>Smith</td>
                         <td>Stannp</td>
                         <td>25, Fake Street</td>
-                        <td>-</td>
                         <td>-</td>
                         <td>Barnstaple</td>
                         <td>1</td>
@@ -86,14 +90,15 @@ function RecipientList() {
                                 Insights
                             </button>
                         </td>
+                        <td></td>
                     </tr>
                     <tr>
+                        <td></td>
                         <td>Mr</td>
                         <td>John</td>
                         <td>Smith</td>
                         <td>Stannp</td>
                         <td>25, Fake Street</td>
-                        <td>-</td>
                         <td>-</td>
                         <td>Barnstaple</td>
                         <td>1</td>
@@ -106,15 +111,16 @@ function RecipientList() {
                                 Insights
                             </button>
                         </td>
+                        <td></td>
                     </tr>
                     <tr>
+                        <td></td>
                         <td>Miss</td>
                         <td>Joanna</td>
                         <td>Smith</td>
                         <td>Stannp</td>
                         <td>25, Fake Street</td>
                         <td>-</td>
-                        <td>-</td>
                         <td>Barnstaple</td>
                         <td>1</td>
                         <td>Devon</td>
@@ -126,15 +132,16 @@ function RecipientList() {
                                 Insights
                             </button>
                         </td>
+                        <td></td>
                     </tr>
                     <tr>
+                        <td></td>
                         <td>Mr</td>
                         <td>John</td>
                         <td>Smith</td>
                         <td>Stannp</td>
                         <td>25, Fake Street</td>
                         <td>-</td>
-                        <td>-</td>
                         <td>Barnstaple</td>
                         <td>1</td>
                         <td>Devon</td>
@@ -146,15 +153,16 @@ function RecipientList() {
                                 Insights
                             </button>
                         </td>
+                        <td></td>
                     </tr>
                     <tr>
+                        <td></td>
                         <td>Mrs</td>
                         <td>Joanna</td>
                         <td>Smith</td>
                         <td>Stannp</td>
                         <td>25, Fake Street</td>
                         <td>-</td>
-                        <td>-</td>
                         <td>Barnstaple</td>
                         <td>1</td>
                         <td>Devon</td>
@@ -166,15 +174,16 @@ function RecipientList() {
                                 Insights
                             </button>
                         </td>
+                        <td></td>
                     </tr>
                     <tr>
+                        <td></td>
                         <td>Mr</td>
                         <td>John</td>
                         <td>Smith</td>
                         <td>Stannp</td>
                         <td>25, Fake Street</td>
                         <td>-</td>
-                        <td>-</td>
                         <td>Barnstaple</td>
                         <td>1</td>
                         <td>Devon</td>
@@ -186,15 +195,16 @@ function RecipientList() {
                                 Insights
                             </button>
                         </td>
+                        <td></td>
                     </tr>
                     <tr>
+                        <td></td>
                         <td>Mrs</td>
                         <td>Joanna</td>
                         <td>Smith</td>
                         <td>Stannp</td>
                         <td>25, Fake Street</td>
                         <td>-</td>
-                        <td>-</td>
                         <td>Barnstaple</td>
                         <td>1</td>
                         <td>Devon</td>
@@ -206,15 +216,16 @@ function RecipientList() {
                                 Insights
                             </button>
                         </td>
+                        <td></td>
                     </tr>
                     <tr>
+                        <td></td>
                         <td>Mr</td>
                         <td>John</td>
                         <td>Smith</td>
                         <td>Stannp</td>
                         <td>25, Fake Street</td>
                         <td>-</td>
-                        <td>-</td>
                         <td>Barnstaple</td>
                         <td>1</td>
                         <td>Devon</td>
@@ -226,15 +237,16 @@ function RecipientList() {
                                 Insights
                             </button>
                         </td>
+                        <td></td>
                     </tr>
                     <tr>
+                        <td></td>
                         <td>Mr</td>
                         <td>John</td>
                         <td>Smith</td>
                         <td>Stannp</td>
                         <td>25, Fake Street</td>
                         <td>-</td>
-                        <td>-</td>
                         <td>Barnstaple</td>
                         <td>1</td>
                         <td>Devon</td>
@@ -246,15 +258,16 @@ function RecipientList() {
                                 Insights
                             </button>
                         </td>
+                        <td></td>
                     </tr>
                     <tr>
+                        <td></td>
                         <td>Mr</td>
                         <td>John</td>
                         <td>Smith</td>
                         <td>Stannp</td>
                         <td>25, Fake Street</td>
                         <td>-</td>
-                        <td>-</td>
                         <td>Barnstaple</td>
                         <td>1</td>
                         <td>Devon</td>
@@ -266,15 +279,16 @@ function RecipientList() {
                                 Insights
                             </button>
                         </td>
+                        <td></td>
                     </tr>
                     <tr>
+                        <td></td>
                         <td>Miss</td>
                         <td>Joanna</td>
                         <td>Smith</td>
                         <td>Stannp</td>
                         <td>25, Fake Street</td>
                         <td>-</td>
-                        <td>-</td>
                         <td>Barnstaple</td>
                         <td>1</td>
                         <td>Devon</td>
@@ -286,15 +300,16 @@ function RecipientList() {
                                 Insights
                             </button>
                         </td>
+                        <td></td>
                     </tr>
                     <tr>
+                        <td></td>
                         <td>Mr</td>
                         <td>John</td>
                         <td>Smith</td>
                         <td>Stannp</td>
                         <td>25, Fake Street</td>
                         <td>-</td>
-                        <td>-</td>
                         <td>Barnstaple</td>
                         <td>1</td>
                         <td>Devon</td>
@@ -306,6 +321,7 @@ function RecipientList() {
                                 Insights
                             </button>
                         </td>
+                        <td></td>
                     </tr>
                 </tbody>
             </Table>
