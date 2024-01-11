@@ -21,9 +21,6 @@ function Navigation() {
             <Nav.Link href="/recipientGroups">Recipient Groups</Nav.Link>
 
             <NavDropdown title="Campaign" id="collapsible-nav-dropdown">
-              <NavDropdown.Item href="/campaign">
-                Campaign Start
-                </NavDropdown.Item>
               <NavDropdown.Item href="/postType">
                 Select Post Type
                 </NavDropdown.Item>

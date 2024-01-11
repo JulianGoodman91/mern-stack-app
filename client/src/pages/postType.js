@@ -1,12 +1,11 @@
 import React from 'react'
 import Footer from '../components/footer';
+import Post from '../components/postType';
 
 function PostType() {
     return (
         <>
-            <h1 className='font-link'>
-                Welcome to the Post Type page.
-            </h1>
+            <Post/>
             <Footer/>
         </>
     )

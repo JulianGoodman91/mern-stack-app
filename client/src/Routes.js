@@ -1,7 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import RecipientList  from './pages/recipientList';
 import Booking  from './pages/booking';
-import Campaign  from './pages/campaign';
 import CreateRecipient  from './pages/createRecipient';
 import DesignTemplate  from './pages/designTemplate';
 import DesignUpload  from './pages/designUpload';
@@ -28,7 +27,6 @@ const MyRoutes = () => {
                 <Route path="/signUp" element={<SignUp />} />
                 <Route path="/recipientList" element={<RecipientList />} />
                 <Route path="/booking" element={<Booking />} />
-                <Route path="/campaign" element={<Campaign />} />
                 <Route path="/createRecipient" element={<CreateRecipient />} />
                 <Route path="/options" element={<Options />} />
                 <Route path="/designTemplate" element={<DesignTemplate />} />

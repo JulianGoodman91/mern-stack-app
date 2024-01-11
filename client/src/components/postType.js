@@ -7,9 +7,9 @@ import Col from 'react-bootstrap/Col';
 
 function Campaign() {
     return (
-        <Container style={{ marginTop:"20px" }}>
+        <Container style={{ marginTop:"30px" }}>
         <h3 style={{textAlign:"center", 
-                    background:"#fff", padding:"30px", 
+                    background:"#fff", padding:"20px", 
                     width:"450px", 
                     borderRadius:"25px", 
                     boxShadow: "9px 9px 13px 0px rgba(0,0,0,0.49)" }}>Choose your format</h3>
