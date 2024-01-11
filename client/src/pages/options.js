@@ -1,12 +1,11 @@
 import React from 'react'
 import Footer from '../components/footer';
+import CampaignOptions from '../components/campaignOptions';
 
 function Options() {
     return (
         <>
-            <h1 className='font-link'>
-                Welcome to the Options page.
-            </h1>
+            <CampaignOptions/>
             <Footer/>
         </>
     )
