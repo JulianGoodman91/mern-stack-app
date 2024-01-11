@@ -82,7 +82,8 @@ function RecipientCreate() {
                         <Form.Control placeholder="Address 2" />
                         </FloatingLabel>
                     </Col>
-                <Col>
+                    <Row>
+                    <Col>
                         <FloatingLabel
                         controlId="floatingInput"
                         label="City"
@@ -91,7 +92,7 @@ function RecipientCreate() {
                         <Form.Control placeholder="City" />
                         </FloatingLabel>
                     </Col>
-                <Col>
+                    <Col>
                         <FloatingLabel
                         controlId="floatingInput"
                         label="County"
@@ -100,7 +101,9 @@ function RecipientCreate() {
                         <Form.Control placeholder="County" />
                         </FloatingLabel>
                     </Col>
-                <Col>
+                </Row>
+                    <Row>
+                    <Col>
                         <FloatingLabel
                         controlId="floatingInput"
                         label="PostCode"
@@ -109,7 +112,7 @@ function RecipientCreate() {
                         <Form.Control placeholder="PostCode" />
                         </FloatingLabel>
                     </Col>
-                <Col>
+                    <Col>
                         <FloatingLabel
                         controlId="floatingInput"
                         label="Country"
@@ -118,6 +121,7 @@ function RecipientCreate() {
                         <Form.Control placeholder="Country" />
                         </FloatingLabel>
                     </Col>
+                </Row>
                     <button type="submit" className="btn btn-primary">
                         Create New Recipient
                     </button>

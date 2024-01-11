@@ -2,14 +2,13 @@
 body {
   min-height: 100vh;
   position: relative;
-  background-image: -webkit-linear-gradient(-75deg, #ffBB1B 30%, #324F7F 30%);
+  background-image: -webkit-linear-gradient(-25deg, #ffBB1B 50%, #324F7F 50%);
 }
 
 .Auth-form-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100vw;
   height: calc(100vh - 70px);
 }
   
@@ -79,7 +78,7 @@ label {
 
 .createRecipientDiv .btn {
   padding: 20px 40px;
-  margin-top: 20px;
+  margin-top: 15px;
   margin-bottom: 30px;
   width: 100%;
 }
@@ -87,10 +86,6 @@ label {
 .groupTable {
   width: auto;
   margin: 50px 50px;
-}
-
-.groupTable .checkBox Form{
-
 }
 
 .groupTable .actions {
