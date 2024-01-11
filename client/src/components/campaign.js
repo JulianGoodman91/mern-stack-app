@@ -7,9 +7,13 @@ import Col from 'react-bootstrap/Col';
 
 function Campaign() {
     return (
-        <Container>
-        <h3>Choose your format</h3>
-        <Row style={{ marginTop:"50px"}}>
+        <Container style={{ marginTop:"20px" }}>
+        <h3 style={{textAlign:"center", 
+                    background:"#fff", padding:"30px", 
+                    width:"450px", 
+                    borderRadius:"25px", 
+                    boxShadow: "9px 9px 13px 0px rgba(0,0,0,0.49)" }}>Choose your format</h3>
+        <Row style={{ marginTop:"30px"}}>
             
         <Col style={{ height:"350px", marginRight:"10px" }}>
             <Card style={{ width: 'auto', height: '20rem'}}>
@@ -68,7 +72,7 @@ function Campaign() {
             </Card>
           </Col>
         </Row>
-        <Row style={{ marginTop:"50px"}}>
+        <Row style={{ marginTop:"10px"}}>
           <Col style={{ height:"350px", marginRight:"10px" }}>
           <Card style={{ width: 'auto', height: '20rem'}}>
             <Card.Img variant="top" src="https://dash.stannp.com/bulkmailer/assets/img/formats/A5_Greetings_Image.jpg" />
