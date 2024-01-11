@@ -14,8 +14,6 @@ import RecipientDataSelect  from './pages/recipientDataSelect';
 import RecipientDataUpload  from './pages/recipientDataUpload';
 import RecipientGroups  from './pages/recipientGroups';
 import ReviewCampaign  from './pages/reviewCampaign';
-import QandA  from './pages/Q&A';
-import Pricing  from './pages/pricing';
 import SignUp from './pages/signUp';
 
 
@@ -24,6 +22,7 @@ const MyRoutes = () => {
     return (
         <Router>
             <Routes>
+                <Route path="/" element={<LandingPage />} />
                 <Route path="/landingPage" element={<LandingPage />} />
                 <Route path="/logOn" element={<LogOn />} />
                 <Route path="/signUp" element={<SignUp />} />
@@ -40,8 +39,6 @@ const MyRoutes = () => {
                 <Route path="/recipientDataUpload" element={<RecipientDataUpload />} />
                 <Route path="/recipientGroups" element={<RecipientGroups />} />
                 <Route path="/reviewCampaign" element={<ReviewCampaign />} />
-                <Route path="/Q&A" element={<QandA />} />
-                <Route path="/pricing" element={<Pricing />} />
             </Routes>
       </Router>
     )

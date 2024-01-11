@@ -2,13 +2,13 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import ImageHS from "./images/Stannp.com Logo - Dark.png";
+import ImageHS from "./images/HubSpot.png";
+// import ImageST from "./images/Stannp.com Logo - Dark.png";
 
 function Navigation() {
     return (
         <Navbar sticky="top" collapseOnSelect expand="lg" className="bg-body-secondary font-link">
       <Container fluid>
-        <Navbar.Brand href="/landingPage"><img src={ImageHS} alt="Logo" style={{width: "100px", height: "auto"}}/></Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
@@ -18,8 +18,6 @@ function Navigation() {
             <Nav.Link href="/createRecipient">Create Recipient</Nav.Link>
             <Nav.Link href="/recipientGroups">Recipient Groups</Nav.Link>
             <Nav.Link href="/recipientList">Individual Recipients</Nav.Link>
-            <Nav.Link href="/Q&A">Q & A</Nav.Link>
-            <Nav.Link href="/pricing">Pricing</Nav.Link>
 
             <NavDropdown title="Campaign" id="collapsible-nav-dropdown">
               <NavDropdown.Item href="/campaign">
@@ -41,6 +39,8 @@ function Navigation() {
                 Book Campaign
               </NavDropdown.Item>
             </NavDropdown>
+          {/* <Navbar.Brand href="/landingPage"><img src={ImageST} alt="Logo" style={{width: "100px", marginLeft: "", marginRight: ""}}/></Navbar.Brand> */}
+          <Navbar.Brand href="/landingPage"><img src={ImageHS} alt="Logo" style={{width: "150px", marginLeft: "900px", marginRight: "0px" }}/></Navbar.Brand>
           </Nav>
         </Navbar.Collapse>
       </Container>

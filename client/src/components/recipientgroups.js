@@ -1,5 +1,6 @@
 import React from 'react'
 import Table from 'react-bootstrap/Table';
+import Form from 'react-bootstrap/Form';
 import '../App.css';
 
 function RecipientGroups() {
@@ -27,7 +28,17 @@ function RecipientGroups() {
 
                 <tbody>
                     <tr>
-                        <td><input type="checkbox" id="scales" name="scales" checked /></td>
+                        <td className="checkBox">    
+                        <Form>
+                            {['checkbox'].map((type) => (
+                                <div className="mb-3">
+                                <Form.Check // prettier-ignore
+                                    type={type}
+                                />
+                                </div>
+                            ))}
+                        </Form>
+                        </td>
                         <td>12345</td>
                         <td>GROUP_1</td>
                         <td> - </td>
@@ -46,7 +57,17 @@ function RecipientGroups() {
                         <td></td>
                     </tr>
                     <tr>
-                        <td><input type="checkbox" id="scales" name="scales" checked /></td>
+                        <td className="checkBox">    
+                        <Form>
+                            {['checkbox'].map((type) => (
+                                <div className="mb-3">
+                                <Form.Check // prettier-ignore
+                                    type={type}
+                                />
+                                </div>
+                            ))}
+                        </Form>
+                        </td>
                         <td>12345</td>
                         <td>GROUP_2</td>
                         <td> - </td>
@@ -65,7 +86,17 @@ function RecipientGroups() {
                         <td></td>
                     </tr>
                     <tr>
-                        <td><input type="checkbox" id="scales" name="scales" checked /></td>
+                    <td className="checkBox">    
+                        <Form>
+                            {['checkbox'].map((type) => (
+                                <div className="mb-3">
+                                <Form.Check // prettier-ignore
+                                    type={type}
+                                />
+                                </div>
+                            ))}
+                        </Form>
+                        </td>
                         <td>12345</td>
                         <td>GROUP_3</td>
                         <td> - </td>
@@ -84,7 +115,17 @@ function RecipientGroups() {
                         <td></td>
                     </tr>
                     <tr>
-                        <td><input type="checkbox" id="scales" name="scales" checked /></td>
+                    <td className="checkBox">    
+                        <Form>
+                            {['checkbox'].map((type) => (
+                                <div className="mb-3">
+                                <Form.Check // prettier-ignore
+                                    type={type}
+                                />
+                                </div>
+                            ))}
+                        </Form>
+                        </td>
                         <td>12345</td>
                         <td>GROUP_4</td>
                         <td> - </td>
@@ -103,7 +144,17 @@ function RecipientGroups() {
                         <td></td>
                     </tr>
                     <tr>
-                        <td><input type="checkbox" id="scales" name="scales" checked /></td>
+                    <td className="checkBox">    
+                        <Form>
+                            {['checkbox'].map((type) => (
+                                <div className="mb-3">
+                                <Form.Check // prettier-ignore
+                                    type={type}
+                                />
+                                </div>
+                            ))}
+                        </Form>
+                        </td>
                         <td>12345</td>
                         <td>GROUP_5</td>
                         <td> - </td>
@@ -122,7 +173,17 @@ function RecipientGroups() {
                         <td></td>
                     </tr>
                     <tr>
-                        <td><input type="checkbox" id="scales" name="scales" checked /></td>
+                    <td className="checkBox">    
+                        <Form>
+                            {['checkbox'].map((type) => (
+                                <div className="mb-3">
+                                <Form.Check // prettier-ignore
+                                    type={type}
+                                />
+                                </div>
+                            ))}
+                        </Form>
+                        </td>
                         <td>12345</td>
                         <td>GROUP_6</td>
                         <td> - </td>
@@ -141,7 +202,17 @@ function RecipientGroups() {
                         <td></td>
                     </tr>
                     <tr>
-                        <td><input type="checkbox" id="scales" name="scales" checked /></td>
+                    <td className="checkBox">    
+                        <Form>
+                            {['checkbox'].map((type) => (
+                                <div className="mb-3">
+                                <Form.Check // prettier-ignore
+                                    type={type}
+                                />
+                                </div>
+                            ))}
+                        </Form>
+                        </td>
                         <td>12345</td>
                         <td>GROUP_7</td>
                         <td> - </td>
@@ -160,7 +231,17 @@ function RecipientGroups() {
                         <td></td>
                     </tr>
                     <tr>
-                        <td><input type="checkbox" id="scales" name="scales" checked /></td>
+                    <td className="checkBox">    
+                        <Form>
+                            {['checkbox'].map((type) => (
+                                <div className="mb-3">
+                                <Form.Check // prettier-ignore
+                                    type={type}
+                                />
+                                </div>
+                            ))}
+                        </Form>
+                        </td>
                         <td>12345</td>
                         <td>GROUP_8</td>
                         <td> - </td>
@@ -179,7 +260,17 @@ function RecipientGroups() {
                         <td></td>
                     </tr>
                     <tr>
-                        <td><input type="checkbox" id="scales" name="scales" checked /></td>
+                    <td className="checkBox">    
+                        <Form>
+                            {['checkbox'].map((type) => (
+                                <div className="mb-3">
+                                <Form.Check // prettier-ignore
+                                    type={type}
+                                />
+                                </div>
+                            ))}
+                        </Form>
+                        </td>
                         <td>12345</td>
                         <td>GROUP_9</td>
                         <td> - </td>
@@ -198,7 +289,17 @@ function RecipientGroups() {
                         <td></td>
                     </tr>
                     <tr>
-                        <td><input type="checkbox" id="scales" name="scales" checked /></td>
+                    <td className="checkBox">    
+                        <Form>
+                            {['checkbox'].map((type) => (
+                                <div className="mb-3">
+                                <Form.Check // prettier-ignore
+                                    type={type}
+                                />
+                                </div>
+                            ))}
+                        </Form>
+                        </td>
                         <td>12345</td>
                         <td>GROUP_10</td>
                         <td> - </td>
@@ -217,7 +318,17 @@ function RecipientGroups() {
                         <td></td>
                     </tr>
                     <tr>
-                        <td><input type="checkbox" id="scales" name="scales" checked /></td>
+                    <td className="checkBox">    
+                        <Form>
+                            {['checkbox'].map((type) => (
+                                <div className="mb-3">
+                                <Form.Check // prettier-ignore
+                                    type={type}
+                                />
+                                </div>
+                            ))}
+                        </Form>
+                        </td>
                         <td>12345</td>
                         <td>GROUP_11</td>
                         <td> - </td>
@@ -236,7 +347,17 @@ function RecipientGroups() {
                         <td></td>
                     </tr>
                     <tr>
-                        <td><input type="checkbox" id="scales" name="scales" checked /></td>
+                    <td className="checkBox">    
+                        <Form>
+                            {['checkbox'].map((type) => (
+                                <div className="mb-3">
+                                <Form.Check // prettier-ignore
+                                    type={type}
+                                />
+                                </div>
+                            ))}
+                        </Form>
+                        </td>
                         <td>12345</td>
                         <td>GROUP_12</td>
                         <td> - </td>
@@ -255,7 +376,17 @@ function RecipientGroups() {
                         <td></td>
                     </tr>
                     <tr>
-                        <td><input type="checkbox" id="scales" name="scales" checked /></td>
+                    <td className="checkBox">    
+                        <Form>
+                            {['checkbox'].map((type) => (
+                                <div className="mb-3">
+                                <Form.Check // prettier-ignore
+                                    type={type}
+                                />
+                                </div>
+                            ))}
+                        </Form>
+                        </td>
                         <td>12345</td>
                         <td>GROUP_13</td>
                         <td> - </td>
@@ -274,7 +405,17 @@ function RecipientGroups() {
                         <td></td>
                     </tr>
                     <tr>
-                        <td><input type="checkbox" id="scales" name="scales" checked /></td>
+                    <td className="checkBox">    
+                        <Form>
+                            {['checkbox'].map((type) => (
+                                <div className="mb-3">
+                                <Form.Check // prettier-ignore
+                                    type={type}
+                                />
+                                </div>
+                            ))}
+                        </Form>
+                        </td>
                         <td>12345</td>
                         <td>GROUP_14</td>
                         <td> - </td>

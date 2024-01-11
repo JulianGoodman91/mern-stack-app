@@ -1,14 +1,10 @@
+
 body {
-  height: 100vh;
-  width: 100vw;
+  min-height: 100vh;
   position: relative;
   background-image: -webkit-linear-gradient(-75deg, #ffBB1B 30%, #324F7F 30%);
 }
 
-.bg-body-secondary {
-  height: 70px;
-}
-  
 .Auth-form-container {
   display: flex;
   justify-content: center;
@@ -21,7 +17,6 @@ body {
   min-width: 400px;
   -webkit-box-shadow: 9px 9px 13px 0px rgba(0,0,0,0.49); 
   box-shadow: 9px 9px 13px 0px rgba(0,0,0,0.49);
-
   padding-top: 30px;
   padding-bottom: 20px;
   border-radius: 8px;
@@ -65,7 +60,6 @@ label {
 
 .recipientOuter {
   background: #fff;
-  height: auto;
   width: 700px;
   border-radius: 25px;
   -webkit-box-shadow: 9px 9px 13px 0px rgba(0,0,0,0.49); 
@@ -75,42 +69,37 @@ label {
 .createRecipientDiv {
   width: 600px;
   margin-top: 40px;
-}
-
-.mb-3 {
-  height: 50px;
+  margin-bottom: 50px;
 }
 
 .createRecipientDiv h2 {
   text-align: center;
-  padding: 10px 0;
+  padding: 10px 0 10px 0;
 }
 
-.createRecipientDiv button {
+.createRecipientDiv .btn {
   padding: 20px 40px;
-  margin: 10px 0 20px 0;
+  margin-top: 20px;
+  margin-bottom: 30px;
   width: 100%;
 }
 
 .groupTable {
-  width: 90vw;
-  height: calc(100vh - 70px);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  width: auto;
+  margin: 50px 50px;
+}
+
+.groupTable .checkBox Form{
+
 }
 
 .groupTable .actions {
-  width: 153px;
+  width: 152px;
 }
 
 .listTable {
-  width: 90vw;
-  height: calc(100vh - 70px);
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  width: auto;
+  margin: 50px 50px;
 }
 
 .listTable .actions {
