@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from '../components/footer';
 
 function ReviewCampaign() {
     return (
@@ -6,6 +7,7 @@ function ReviewCampaign() {
             <h1 className='font-link'>
                 Welcome to the Review Campaign page.
             </h1>
+            <Footer/>
         </>
     )
 };

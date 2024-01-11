@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from '../components/footer';
 
 function Insights() {
     return (
@@ -6,6 +7,7 @@ function Insights() {
             <h1>
                 Insights
             </h1>
+            <Footer/>
         </>
     )
 };

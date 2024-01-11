@@ -16,8 +16,8 @@ function Navigation() {
             <Nav.Link href="/signUp">Sign Up</Nav.Link>
             <Nav.Link href="/landingPage">Stannp API</Nav.Link>
             <Nav.Link href="/createRecipient">Create Recipient</Nav.Link>
-            <Nav.Link href="/recipientGroups">Recipient Groups</Nav.Link>
             <Nav.Link href="/recipientList">Individual Recipients</Nav.Link>
+            <Nav.Link href="/recipientGroups">Recipient Groups</Nav.Link>
 
             <NavDropdown title="Campaign" id="collapsible-nav-dropdown">
               <NavDropdown.Item href="/campaign">
