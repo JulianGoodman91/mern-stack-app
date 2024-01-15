@@ -12,8 +12,8 @@ import RecipientDataCreateMan  from './pages/recipientDataCreateMan';
 import RecipientDataSelect  from './pages/recipientDataSelect';
 import RecipientDataUpload  from './pages/recipientDataUpload';
 import RecipientGroups  from './pages/recipientGroups';
-import ReviewCampaign  from './pages/reviewCampaign';
 import SignUp from './pages/signUp';
+import DesignPage from './pages/designPage';
 
 
 
@@ -36,7 +36,7 @@ const MyRoutes = () => {
                 <Route path="/recipientDataSelect" element={<RecipientDataSelect />} />
                 <Route path="/recipientDataUpload" element={<RecipientDataUpload />} />
                 <Route path="/recipientGroups" element={<RecipientGroups />} />
-                <Route path="/reviewCampaign" element={<ReviewCampaign />} />
+                <Route path="/designPage" element={<DesignPage />} />
             </Routes>
       </Router>
     )

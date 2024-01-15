@@ -30,8 +30,8 @@ function Navigation() {
               <NavDropdown.Item href="/recipientDataSelect">
                 Recipient Data
               </NavDropdown.Item>
-              <NavDropdown.Item href="/reviewCampaign">
-                Review Campaign
+              <NavDropdown.Item href="/designPage">
+                Select your Design
               </NavDropdown.Item>
               <NavDropdown.Item href="/booking">
                 Book Campaign

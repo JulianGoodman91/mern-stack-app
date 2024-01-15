@@ -107,11 +107,6 @@ label {
 }
 
 .optionsContainer {
-  height: auto;
-  padding-top: 100px;
-}
-
-.optionsContainerRow {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -119,19 +114,94 @@ label {
   -webkit-box-shadow: 9px 9px 13px 0px rgba(0,0,0,0.49); 
   box-shadow: 9px 9px 13px 0px rgba(0,0,0,0.49);
   border-radius: 25px;
+  padding: 50px 0;
+  margin-top: 60px;
 }
 
-.optionsContainerRow .partOne{
-
+.optionsContainer .columnOne {
+ padding: 0 50px 0 50px; 
 }
 
-.optionsContainerRow .partTwo{
-
+.optionsContainer .columnTwo {
+  padding: 0 50px 0 50px;
 }
 
+.optionsContainer .nameCampaignDiv {
+  padding-top: 20px;
+  margin-bottom: 50px;
+}
 
+.optionsContainer .postageClassDiv {
+}
 
+.optionsContainer .nameCampaignDiv h5{
+  padding: 20px 0;
+}
 
+.optionsContainer .pTagsSwitch {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 20px;
+}
+
+.optionsContainer .pTags {
+  padding-bottom: 10px;
+}
+
+.optionsContainer .accordionDiv {
+  padding: 20px 0;
+}
+
+.optionsContainer .firstCountryDrop {
+  padding-bottom: 40px;
+}
+
+.optionsContainer .bracketPriceDiv {
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
+}
+
+.columnTwo p{
+  -webkit-box-shadow: 9px 9px 13px 0px rgba(0,0,0,0.49); 
+  box-shadow: 9px 9px 13px 0px rgba(0,0,0,0.49);
+  border-radius: 25px;
+  text-align: center;
+  padding: 30px;
+  background-color: #e6e6e6;
+}
+
+.listTable .selectRec {
+text-align: center;
+  background: #fff; 
+  padding: 20px;
+  margin-bottom: 30px; 
+  width: 450px; 
+  border-radius: 25px; 
+  box-shadow: 9px 9px 13px 0px rgba(0,0,0,0.49); 
+  border-radius: 25px;
+}
+
+.designButtons {
+  display: flex;
+}
+
+.designButtons button{
+  padding: 20px 0;
+  width: 500px;
+  margin-top: 150px;
+  background: #fff;
+  color: #6610f2;
+}
+
+.bookerOuter {
+  display: flex;
+  margin-top: 300px;
+}
+
+.bookingPage button{
+  padding: 100px 200px;
+}
 
 
 

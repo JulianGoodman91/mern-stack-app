@@ -1,5 +1,5 @@
 import Container from 'react-bootstrap/Container';
-import ImageST from "./images/Stannp.com Logo - Dark.png";
+import ImageST from "./images/Stannp.com Logo - black 1.png";
 
 
 function LandingPage() {
